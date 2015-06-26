@@ -16,7 +16,8 @@ Ordem para a instalação:
 
 Depois de instalado é bom configurarmos a variável de ambiente no Windows para reconhecer o comando $ python no Prompt de Comando. Vamos lá!
 
-	Clique no Menu Iniciar > Clique com o lado direito do mouse no "Meu computador" > Clique na opção "Propriedades".
+	Clique no Menu Iniciar > Clique com o lado direito do mouse no
+	"Meu computador" > Clique na opção "Propriedades".
 	
 Istes passos irão abrir a janela de informações básicas do computador.
 
