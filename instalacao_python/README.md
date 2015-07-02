@@ -4,11 +4,11 @@ Lista de Arquivos para instalar o Python e Spyder no Windows
 
 Ordem para a instalação:
 
-1 - python-3.4.3.msi
+1. python-3.4.3.msi
 
-2 - PyQt4-4.11.4-gpl-Py3.4-Qt4.8.7-x32.exe 
-	
-3 - spyder-2.3.5.2.win32-py3.4.exe
+2. PyQt4-4.11.4-gpl-Py3.4-Qt4.8.7-x32.exe
+
+3. spyder-2.3.5.2.win32-py3.4.exe
 
 # Configuração da Variável de Ambiente
 
@@ -16,7 +16,7 @@ Depois de instalado é bom configurarmos a variável de ambiente no Windows para
 
 	Clique no Menu Iniciar > Clique com o lado direito do mouse no
 	"Meu computador" > Clique na opção "Propriedades".
-	
+
 Istes passos irão abrir a janela de informações básicas do computador.
 
 Agora clique no link "Alterar Configurações" que está do lado direito da tela.
@@ -27,8 +27,8 @@ Localize a váriavel "Path" dentro das váriaveis do sistema, selecione e clique
 
 Copie o seguite texto no final da linha.
 
-	;C:\Python34.3\;C:\Python34.3\Scripts\;
-	
+	;C:\Python34\;C:\Python34\Scripts\;
+
 Copie da forma que está ai e cole sem que haja nenhum espaço.
 
 Clique em "Ok" Duas vezes.
@@ -36,11 +36,11 @@ Clique em "Ok" Duas vezes.
 Abra o "Prompt de comando" do Windows
 
 	Clique no menu iniciar e na caixa de pesquisa digite "cmd", aperte o "Enter".
-	
+
 Digite:
 
 	python
-	
+
 Aperte o "Enter"
 
 Se seguiu os paços corretamente deverá aparecer a versão do Python e uma linha com:
@@ -49,12 +49,3 @@ Se seguiu os paços corretamente deverá aparecer a versão do Python e uma linh
 	tel)] on win32
 	Type "help", "copyright", "credits" or "license" for more information.
 	>>>
-	
-
-
-
-
-
-
-
-
