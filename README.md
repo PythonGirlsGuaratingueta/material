@@ -1,6 +1,9 @@
 # material
 Material importante para acompanhamentos do conteúdo do Grupo Pythons Girls de Guaratinguetá
 
+## Vídeos Youtube
+* [História do Python](https://youtu.be/ZB9OLxj2Vb0)
+
 ## Lista de Arquivos e Dias de encontro
 
 Dia 25/06/2015 - Motivacao.pptx
