@@ -20,3 +20,5 @@ Listas de exercícios para o Grupo
 Na pasta instalacao_python estão os arquivos e as instruções de instalação
 
 Importante seguir a ordem de instalação.
+
+teste
