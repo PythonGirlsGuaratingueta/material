@@ -1,0 +1,21 @@
+Tutorial basico de git :D
+
+Recomendado :
+
+http://rogerdudler.github.io/git-guide/index.pt_BR.html
+
+
+Comandos mais utilizados:
+
+... # Passos para um commit no remoto...
+
+git status
+git pull origin <nome-branch>   	# Pega ultima versão do remoto
+git status
+git add <files>
+git commit -m "mensagem de commit"
+git status
+git push origin <nome-branch>		# Envia os commits para o remoto
+git status
+
+
