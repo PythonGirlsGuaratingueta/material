@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body>
+<form method="post" action="">
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" placeholder="Nome">
+    <label for="volume">Volume</label>
+    <input type="range" name="volume" id="volume" min="0" max="10" step="1">
+    <select name="escolha">
+        <option value="">Escolha uma opção</option>
+        <option value="1">SP</option>
+        <option value="2">RJ</option>
+        <option value="3" selected>MG</option>
+        <option value="4">BA</option>
+
+    </select><br>
+    <input type="checkbox" name="check"> sim para python<br>
+    <input type="checkbox" name="check1"> não para python<br>
+    <input type="radio" name="radio" checked> python<br>
+    <input type="radio" name="radio"> php<br>
+    <input type="radio" name="radio"> cobol<br>
+    <textarea name="mensagem" placeholder="deixe uma mensagem..." rows="5"></textarea>
+    <input type="submit" name="enviar" value="Enviar">
+    <button name="botao">Enviar por botão</button>
+    <!----------->
+</form>
+
+</body>
+</html>

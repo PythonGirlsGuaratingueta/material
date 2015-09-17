@@ -1,0 +1,48 @@
+
+
+
+
+
+
+.navbar-nav > li > a {
+    line-height: 40px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #15ff8d;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.btn-primary {
+    color: #FFF;
+    background-color: #b75d10;
+    border-color: #a55310;
+}
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open > .dropdown-toggle.btn-primary {
+    color: #FFF;
+    background-color: #90100c;
+    border-color: #490407;
+}
+@media (max-width: 768px) {
+    .navbar-inverse .navbar-nav > li > a {
+        color: #ff483f
+    }
+}
+
+a, a:visited{
+
+}

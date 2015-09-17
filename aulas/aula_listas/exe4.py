@@ -11,7 +11,7 @@ print("numero de consoantes {}".format(soma))
 i = 0
 while i < len(consoantes):
     #imprimindo na mesma linha
-    print(consoantes[i], end=" ")
+    #print(consoantes[i], end=" ")
     #ou
-    #print consoantes[i],
+    print consoantes[i],
     i = i + 1

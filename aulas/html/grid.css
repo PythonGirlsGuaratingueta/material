@@ -1,0 +1,20 @@
+
+
+
+
+
+
+article{
+    min-height: 600px; 
+}
+.well {
+    background-color: #a8bef5;
+    border: 1px solid #E3E3E3;
+
+}
+
+@media(max-width: 768px){
+    article{
+        min-height: 1px;
+    }
+}
