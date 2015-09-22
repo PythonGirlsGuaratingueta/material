@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+        <meta charset="UTF-8">
+    <title>Lâmpada</title>
+    <!-- dfdfdf -->
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript">
+        function lampadaAcesa(){
+          document.getElementById("lampada").src="img/lampada-acesa.jpg";
+        }
+        function lampadaApaga(){
+            document.getElementById("lampada").src="img/lampada-apagada.jpg";
+        }
+        function lampadaQuebra(){
+            document.getElementById("lampada").src="img/lampada-quebrada.jpg";
+        }
+        function opcao(valor){
+            if(valor == ""){
+                $("#cpf").hide("slow");
+                $("#cnpj").hide("slow");
+            }else{
+                if(valor == "cpf"){
+                    $("#cpf").show("slow");
+                    $("#cnpj").hide("slow");
+                }else{
+                    $("#cpf").hide("slow");
+                    $("#cnpj").show("slow");
+                }
+            }
+        }
+        $(document).ready(function(){
+            $("#cpf").hide();
+            $("#cnpj").hide();
+            var nome = "Silvio";
+            console.log(nome);
+        });
+
+    </script>
+</head>
+<body>
+<img src="img/lampada-apagada.jpg" alt="Lâmpada" id="lampada" onmousemove="lampadaAcesa()"  onclick="lampadaQuebra()">
+<form>
+    <select id="escolha" onchange="opcao(this.value)">
+        <option value="">Escolha uma opção</option>
+        <option value="cpf">CPF</option>
+        <option value="cnpj">CNPJ</option>
+    </select>
+    <input type="text" name="cpf" id="cpf" placeholder="CPF">
+    <input type="text" name="cnpj" id="cnpj" placeholder="CNPJ">
+</form>
+
+</body>
+</html>

@@ -1,17 +1,37 @@
-
-
-
-
-
-
 article{
     min-height: 600px; 
 }
 .well {
     background-color: #a8bef5;
     border: 1px solid #E3E3E3;
-
 }
+footer{
+    border-top: #e2e2e2 solid 1px;
+    padding-top: 25px;
+}
+ul.participantes li{
+    line-height: 25px;
+    font-size: 125%;
+}
+/* Sugestão Cristóvão */
+li.menina{
+    color: #ff36b5;
+}
+li.menino{
+    color: #1a137a;
+}
+
+/* comentário */
+span.aspas{
+    font-size: 400%;
+    color: #204d74;
+    font-family: "Times";
+}
+span.by{
+    font-size: 75%;
+    color: #666666;
+}
+
 
 @media(max-width: 768px){
     article{
