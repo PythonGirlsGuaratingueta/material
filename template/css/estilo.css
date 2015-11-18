@@ -1,0 +1,27 @@
+.redes-sociais{
+    font-size: 200%;
+    padding-top: 15px;
+}
+.redes-sociais li a,.redes-sociais li a:visited{
+    color:#666666 ;
+}
+.redes-sociais li a:hover{
+    color: #EC268F;
+}
+.navbar-default {
+    background-color: #EC268F;
+    border-color: rgba(212, 35, 126, 0.98);
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.btn-busca {
+    color: #EC268F;
+    background-color: transparent;
+    border-color: none;
+    font-size: 16px;
+}
